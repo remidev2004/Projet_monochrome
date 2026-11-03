@@ -1,0 +1,22 @@
+header {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+
+}
+
+div {
+    background-image: radial-gradient(transparent);
+    
+}
