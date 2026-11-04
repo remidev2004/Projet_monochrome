@@ -3,20 +3,68 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 a {
     text-decoration: none;
+    color: rgb(6, 6, 6);
 }
 
 nav {
     display: flex;
     gap: 20px;
-
 }
 
-div {
-    background-image: radial-gradient(transparent);
-    
+.hero {
+    background-image: url(asset/bg-image-hero.png);
+    height: 600px;
+    color: aliceblue;
+}
+
+* {
+    border: 1px solid rgb(244, 244, 245);
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 48px 0;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    a {
+        background-color: rgb(65, 69, 69);
+        border-color: rgb(65, 69, 69);
+        border-radius: 5px;
+        margin: 15px;
+        padding: 5px;
+    }
+}
+
+.Tataouine {
+    background-image: url(asset/bg-image-2.png);
+    color: rgb(253, 254, 255);
+}
+
+.Tataouine .container div {
+    margin: 48px 0;
+}
+
+.discover {
+    padding: 16px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+.nuget {
+    margin: 48px 0;
 }
